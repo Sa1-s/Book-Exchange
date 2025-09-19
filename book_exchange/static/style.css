@@ -1,0 +1,104 @@
+.stApp {
+    background: linear-gradient(135deg, #1e3c72, #2a5298);
+    color: #ffffff;
+    font-family: 'Segoe UI', 'Roboto', sans-serif;
+}
+
+h1,
+h2,
+h3 {
+    color: #ffffff;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+}
+
+p,
+label,
+span,
+.stMarkdown {
+    color: #f1f1f1;
+}
+
+.stContainer,
+.css-1r6slb0,
+.css-1v3fvcr {
+    background: rgba(255, 255, 255, 0.08);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    border-radius: 12px;
+    padding: 16px;
+    margin-bottom: 18px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.4);
+}
+
+input[type="text"],
+input[type="number"],
+textarea,
+.stTextInput>div>div>input,
+.stNumberInput>div>div>input,
+.stSelectbox>div>div,
+.stSelectbox div[data-baseweb="select"]>div {
+    background-color: rgba(0, 0, 0, 0.4) !important;
+    color: #ffffff !important;
+    border-radius: 8px !important;
+    border: 1px solid rgba(255, 255, 255, 0.3) !important;
+    padding: 10px !important;
+    font-size: 15px !important;
+}
+
+input::placeholder,
+textarea::placeholder {
+    color: #cccccc !important;
+}
+
+.stSelectbox div[data-baseweb="select"] span {
+    color: #ffffff !important;
+}
+
+.stButton>button {
+    background: linear-gradient(90deg, #007bff, #00d4ff);
+    color: #ffffff;
+    font-weight: 600;
+    border-radius: 8px;
+    border: none;
+    padding: 10px 22px;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.4);
+}
+
+.stButton>button:hover {
+    background: linear-gradient(90deg, #00d4ff, #007bff);
+    transform: scale(1.05);
+    box-shadow: 0px 6px 14px rgba(0, 0, 0, 0.5);
+}
+
+details {
+    background: rgba(0, 0, 0, 0.3);
+    border-radius: 6px;
+    padding: 8px 12px;
+    margin-top: 10px;
+}
+
+details summary {
+    cursor: pointer;
+    color: #00d4ff;
+    font-weight: 600;
+}
+
+details p {
+    margin-top: 6px;
+    color: #ffffff;
+}
+
+.stSuccess {
+    background-color: rgba(40, 167, 69, 0.2);
+    color: #28a745;
+    border-left: 5px solid #28a745;
+    border-radius: 6px;
+}
+
+.stInfo {
+    background-color: rgba(23, 162, 184, 0.2);
+    color: #17a2b8;
+    border-left: 5px solid #17a2b8;
+    border-radius: 6px;
+}

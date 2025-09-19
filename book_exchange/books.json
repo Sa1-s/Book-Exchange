@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1668579123,
+    "title": "Data Structures with Python",
+    "author": "Dr. R. Nageswara Rao",
+    "department": "BCA",
+    "semester": 3,
+    "price": 350,
+    "seller_name": "Rohan Sharma",
+    "seller_contact": "rohan.sharma@christuniversity.in"
+  },
+  {
+    "id": 1668579456,
+    "title": "Introduction to Psychology",
+    "author": "Clifford T. Morgan",
+    "department": "Psychology",
+    "semester": 1,
+    "price": 450,
+    "seller_name": "Priya Singh",
+    "seller_contact": "priya.singh@christuniversity.in"
+  }
+]
